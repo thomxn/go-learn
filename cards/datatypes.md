@@ -18,4 +18,12 @@ Specify the dependency files in the CLI along with main.go `go run main.go deck.
 
 ## Functions
 
-**Receivers** sets up methods on variables that we create
+**Receivers** sets up methods on variables that we create. Receiver methods specify the type just after the `func` declaration
+Eg: `func (d deck) print() { }`
+
+Use `_` as placeholder for variables
+Eg: `for _, value := range cardValues`
+
+### Range
+Use array indexes inside `[]` to get a subset from an existing array
+`array[startIndexIncluding: endIndexExcluding]`
