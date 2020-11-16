@@ -34,5 +34,5 @@ func TestDeckFileOperation(t *testing.T) {
 		t.Errorf("Expected deck to contain 20 cards but got %v", len(loadedDeck))
 	}
 
-	// os.Remove("_decktesting")
+	os.Remove("_decktesting")
 }
